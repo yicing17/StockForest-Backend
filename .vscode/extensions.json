@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.black-formatter",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-ceintl.vscode-language-pack-zh-hant",
+        "devcharles5277.git-commit-plugin-with-gitmoji",
+        "mhutchie.git-graph"
+    ]
+}
