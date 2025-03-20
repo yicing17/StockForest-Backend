@@ -8,7 +8,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://stockforest-frontend.zeabur.internal:8080",  # 允許正式環境的前端
+        "https://stockforest.charlestw.dev",  # 允許正式環境的前端
         "http://localhost:5173",  # 允許本地開發
     ],
     allow_credentials=True,
