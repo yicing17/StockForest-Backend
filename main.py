@@ -16,10 +16,6 @@ app.add_middleware(
     allow_headers=["*"],  # 允許所有標頭
 )
 
-@app.get("/")
-async def root():
-    return {"data": "Hello World"}
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": q}
+@app.get("/predict/{stock_id}")
+async def predict(stock_id: str):
+    return {"data": stock_id}
